@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+}
+ul {
+  list-style: none;
+}
+ul,
+dl,
+ol {
+  margin-bottom: 0 !important;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.flex {
+  display: flex;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+.invite-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pointer {
+  cursor: pointer;
+}
+.invitations {
+  width: 100%;
+  font-size: 1rem;
+  display: flex;
+  margin-top: 1rem;
+  .invitations-box {
+    width: 50%;
+    text-align: center;
+    .invitations-num {
+      font-size: 1.4rem;
+    }
+  }
+}
+.address_copy {
+  margin: 0 6% 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.confirm_binding_btn {
+  padding-top: 1rem;
+  border-top: 1px solid #fff;
+  margin: 1rem 6% 0 0;
+  display: flex;
+  justify-content: space-between;
+  .confirm_binding {
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 1rem;
+    width: 15rem;
+    height: 3rem;
+    line-height: 3rem;
+    padding: 0 0.3rem;
+    cursor: pointer;
+    border-radius: 0.6rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .app-root {
+    padding-bottom: 9rem;
+  }
+  .confirm_binding_btn {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    .title_min {
+      font-size: 2rem !important;
+    }
+    .confirm_binding {
+      width: 100%;
+      height: 5rem;
+      line-height: 5rem;
+      margin: 2rem 0;
+    }
+  }
+}

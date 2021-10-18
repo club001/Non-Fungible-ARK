@@ -1,0 +1,331 @@
+// 2021-11-14 移动端样式 sssssichen
+.mobile-receive {
+  .title {
+    font-size: 2.6rem !important;
+    margin-top: 5% !important;
+  }
+  .amount {
+    font-size: 3.4rem !important;
+  }
+  .mobile-p {
+    margin-top: 7%;
+  }
+  .flex-between {
+    font-size: 2rem;
+    line-height: 3 !important;
+  }
+  .btn {
+    font-size: 2rem !important;
+    margin-top: 8% !important;
+    margin-bottom: 4% !important;
+  }
+}
+.mobile {
+  .main-box {
+    width: 90%;
+  }
+  .purchase {
+    > p {
+      font-size: 2rem;
+      margin-bottom: 3rem !important;
+    }
+    .price {
+      margin: 3rem 0;
+    }
+    input {
+      margin-bottom: 3rem;
+    }
+    .buy {
+      font-size: 2rem;
+      margin: 10% 0;
+    }
+  }
+  .your {
+    .card {
+      .title {
+        font-size: 2rem;
+        margin: 2% 0;
+      }
+      .main {
+        margin: 2% 0;
+        text-align: center;
+      }
+      .box {
+        width: 100%;
+      }
+      .num {
+        font-size: 3.4rem;
+      }
+      .desc {
+        margin: 2rem auto;
+        font-size: 1.8rem;
+        width: 50%;
+      }
+    }
+  }
+}
+
+.main-box {
+  width: 50%;
+  margin: 5vh auto;
+  .card {
+    padding: 7%;
+    background: url("../../assets/images/ido-bg.png");
+    background-size: 100% 100%;
+    margin-top: 5vh;
+  }
+}
+
+.tab {
+  color: #71cec5;
+  font-size: 1.6rem;
+
+  span {
+    margin-right: 3rem;
+    padding-bottom: 0.4rem;
+  }
+
+  .active {
+    border-bottom: 2px solid #71cec5;
+    font-size: 2rem;
+  }
+}
+
+.purchase {
+  color: #fff;
+
+  > p {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .ant-progress-outer {
+    width: 98%;
+  }
+
+  .ant-progress-text {
+    color: #fff;
+    font-size: 1.2rem;
+  }
+
+  .price {
+    line-height: 2;
+    margin: 1.6rem 0;
+    .price-bal {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .btn {
+    border-radius: 0.6rem;
+    padding: 1rem 0;
+    padding-left: 4%;
+    font-size: 1.2rem;
+  }
+
+  .btn1 {
+    background: #fff;
+    color: #71cec5;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    border: none;
+  }
+  .btn1::placeholder {
+    color: #71cec5;
+  }
+
+  .buy {
+    background: #71cec5;
+    color: #fff;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+}
+
+.your {
+  .card {
+    background: url("../../assets/images/your-bg.png");
+    background-size: 100% 100%;
+    color: #fff;
+    padding: 5% 7%;
+
+    .title {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+    .num {
+      font-size: 2rem;
+      line-height: 0.7;
+      margin-bottom: 2.6rem;
+    }
+    .main {
+      display: flex;
+      justify-content: space-around;
+
+      .box {
+        border-left: 1px solid #fff;
+        padding-left: 1rem;
+        margin: 1rem 0;
+
+        .desc {
+          margin-bottom: 0;
+        }
+      }
+
+      .box:first-child {
+        border: none;
+      }
+    }
+  }
+
+  .history {
+    color: #71cec5;
+    font-size: 2rem;
+    margin-top: 6vh;
+  }
+
+  .bottom {
+    .num {
+      margin-bottom: 2rem;
+    }
+    padding: 8% 0 6% 20%;
+    .left {
+      width: 60%;
+    }
+    ul li {
+      line-height: 3;
+    }
+  }
+}
+
+// 弹窗
+.modal {
+  background: url("../../assets/images/ido-bg.png");
+  background-size: 100% 100%;
+  color: #fff;
+  p {
+    margin-bottom: 0;
+  }
+  .ant-modal-content {
+    background: transparent;
+    padding: 2% 3%;
+    box-shadow: none;
+  }
+  .top {
+    align-items: center;
+  }
+  .title {
+    font-size: 1.2rem;
+  }
+  .icon-close {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+.my-account {
+  p {
+    font-size: 1.4rem;
+    line-height: 2;
+  }
+  .title {
+    font-size: 1.4rem;
+  }
+  .title_min {
+    font-size: 1rem;
+  }
+  .my-nfa {
+    border-bottom: 1px solid #fff;
+    margin: 3% 6% 4% 0;
+    padding-bottom: 6%;
+  }
+  .icon-copy {
+    width: 1.6rem;
+    margin-left: 15%;
+    line-height: 1;
+  }
+}
+.receive {
+  .ant-modal-content {
+    background: transparent;
+    padding: 5% 8%;
+  }
+  .title {
+    margin-top: 4%;
+    font-size: 2rem;
+  }
+  .amount {
+    font-size: 2.4rem;
+    margin: 7% 0;
+    padding-bottom: 10%;
+    border-bottom: 1px solid #fff;
+  }
+  .flex-between {
+    line-height: 4;
+  }
+  .btn {
+    background: #fff;
+    border-radius: 0.6rem;
+    padding: 1rem 0;
+    color: #71cec5;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 1rem;
+  }
+}
+.align-center {
+  text-align: center;
+}
+
+.connect {
+  .ant-modal-content {
+    padding-left: 4%;
+  }
+  .title {
+    font-size: 1.8rem;
+  }
+  .avatar {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 15%;
+  }
+  .user-name {
+    margin-top: 0.4rem;
+    margin-bottom: 15%;
+    font-size: 1.4rem;
+  }
+}
+.count_down_box {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  .start_the {
+    padding-right: 0.5rem;
+  }
+  .count_down {
+    .ant-statistic-content {
+      font-size: 1.2rem;
+      color: #fff;
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .tab {
+    .pointer {
+      font-size: 2.5rem;
+    }
+  }
+  .count_down_box {
+    font-size: 2rem;
+    .count_down {
+      .ant-statistic-content {
+        font-size: 2rem;
+      }
+    }
+  }
+}
